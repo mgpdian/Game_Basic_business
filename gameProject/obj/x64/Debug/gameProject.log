@@ -1,0 +1,51 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.200.132”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  GameRole.cpp
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(125,13): warning : conversion from ‘std::linear_congruential_engine<long unsigned int, 16807, 0, 2147483647>::result_type’ {aka ‘long unsigned int’} to ‘float’ may change value [-Wconversion]
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(125,13): warning :   125 |     x = 100 + random_engine() % 50;
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(125,13): warning :       |         ~~~~^~~~~~~~~~~~~~~~~~~~~~
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(126,13): warning : conversion from ‘std::linear_congruential_engine<long unsigned int, 16807, 0, 2147483647>::result_type’ {aka ‘long unsigned int’} to ‘float’ may change value [-Wconversion]
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(126,13): warning :   126 |     z = 100 + random_engine() % 50;
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(126,13): warning :       |         ~~~~^~~~~~~~~~~~~~~~~~~~~~
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(166,9): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(166,9): warning :   166 |     x = _x;
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(166,9): warning :       |         ^~
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(167,9): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(167,9): warning :   167 |     y = _y;
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(167,9): warning :       |         ^~
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(168,9): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(168,9): warning :   168 |     z = _z;
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(168,9): warning :       |         ^~
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(169,9): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(169,9): warning :   169 |     v = _v;
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(169,9): warning :       |         ^~
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(200,21): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(200,21): warning :   200 |         pPos->set_x(_x);
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(200,21): warning :       |                     ^~
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(201,21): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(201,21): warning :   201 |         pPos->set_y(_y);
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(201,21): warning :       |                     ^~
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(202,21): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(202,21): warning :   202 |         pPos->set_z(_z);
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(202,21): warning :       |                     ^~
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(203,21): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(203,21): warning :   203 |         pPos->set_v(_v);
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(203,21): warning :       |                     ^~
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(350,34): warning : conversion from ‘float’ to ‘int’ may change value [-Wfloat-conversion]
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(350,34): warning :   350 |             ProcMoveMsg(NewPos->x(), NewPos->y(), NewPos->z(), NewPos->v());
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(350,34): warning :       |                         ~~~~~~~~~^~
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(350,47): warning : conversion from ‘float’ to ‘int’ may change value [-Wfloat-conversion]
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(350,47): warning :   350 |             ProcMoveMsg(NewPos->x(), NewPos->y(), NewPos->z(), NewPos->v());
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(350,47): warning :       |                                      ~~~~~~~~~^~
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(350,60): warning : conversion from ‘float’ to ‘int’ may change value [-Wfloat-conversion]
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(350,60): warning :   350 |             ProcMoveMsg(NewPos->x(), NewPos->y(), NewPos->z(), NewPos->v());
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(350,60): warning :       |                                                   ~~~~~~~~~^~
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(350,73): warning : conversion from ‘float’ to ‘int’ may change value [-Wfloat-conversion]
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(350,73): warning :   350 |             ProcMoveMsg(NewPos->x(), NewPos->y(), NewPos->z(), NewPos->v());
+G:\vcs\Game_Server_Study\gameProject\gameProject\GameRole.cpp(350,73): warning :       |                                                                ~~~~~~~~~^~
+  正在链接对象
+  gameProject.vcxproj -> G:\vcs\Game_Server_Study\gameProject\gameProject\bin\x64\Debug\gameProject.out
